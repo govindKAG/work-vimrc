@@ -55,7 +55,7 @@ let g:airline_mode_map = {
       \ 'i'  : 'I',
       \ 'ic' : 'I',
       \ 'ix' : 'I',
-      \ 'n'  : 'N',
+      \ 'n'  : 'KAG',
       \ 'ni' : 'N',
       \ 'no' : 'N',
       \ 'R'  : 'R',
@@ -74,6 +74,8 @@ let g:airline_skip_empty_sections = 1
 " key remappings
 nnoremap j gj
 nnoremap k gk
+"cycle between the line numbering modes
+nnoremap <silent> <F3> :exec &nu==&rnu? "se nu!" : "se rnu!"<CR>
 
 " regular settings
 set nocompatible
@@ -100,6 +102,7 @@ set mouse=a
 set title
 set laststatus=2
 set pastetoggle=<F2>
+set so=999
 
 " Window controls
 map <C-h> <C-w>h
@@ -114,6 +117,8 @@ nnoremap <Leader>d :NERDTree<CR>
 
 " sort imports
 nnoremap <Leader>si vip:sort<CR>
+"tab on = to allign =s
+nnoremap <Leader>t vip:Tabularize /=<CR>
 
 " autocommands
 
