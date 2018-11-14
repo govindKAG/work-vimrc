@@ -72,8 +72,11 @@ let g:airline_mode_map = {
 let g:airline_skip_empty_sections = 1
 
 " key remappings
+
+"sensible up and down 
 nnoremap j gj
 nnoremap k gk
+
 "cycle between the line numbering modes
 nnoremap <silent> <F3> :exec &nu==&rnu? "se nu!" : "se rnu!"<CR>
 
@@ -103,6 +106,10 @@ set title
 set laststatus=2
 set pastetoggle=<F2>
 set so=999
+
+" undo controls 
+set undofile
+set undodir=~/.vim/undodir
 
 " Window controls
 map <C-h> <C-w>h
