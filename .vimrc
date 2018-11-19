@@ -18,6 +18,8 @@ Plug 'junegunn/goyo.vim'
 Plug 'bling/vim-bufferline'
 Plug 'plasticboy/vim-markdown'
 Plug 'tell-k/vim-autopep8'
+Plug 'vim-scripts/AutoComplPop'
+Plug 'tpope/vim-fugitive'
 
 Plug 'ryanoasis/vim-devicons'
 " List ends here. Plugins become visible to Vim after this call.
@@ -73,7 +75,7 @@ let g:airline_skip_empty_sections = 1
 
 " key remappings
 
-"sensible up and down 
+"sensible up and down
 nnoremap j gj
 nnoremap k gk
 
@@ -82,7 +84,7 @@ nnoremap <silent> <F3> :exec &nu==&rnu? "se nu!" : "se rnu!"<CR>
 
 " regular settings
 set nocompatible
-set nu
+set relativenumber
 set ruler
 set autoindent
 set nowrap
@@ -126,7 +128,6 @@ nnoremap <Leader>d :NERDTree<CR>
 nnoremap <Leader>si vip:sort<CR>
 "tab on = to allign =s
 nnoremap <Leader>t vip:Tabularize /=<CR>
-
 " autocommands
 
 "force markdown syntax highliting on .md files instead of modula2
