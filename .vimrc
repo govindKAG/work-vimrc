@@ -84,6 +84,7 @@ nnoremap <silent> <F3> :exec &nu==&rnu? "se nu!" : "se rnu!"<CR>
 
 " regular settings
 set nocompatible
+set nu
 set relativenumber
 set ruler
 set autoindent
