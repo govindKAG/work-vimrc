@@ -90,6 +90,8 @@ set ruler
 set autoindent
 set nowrap
 syntax enable
+set splitright
+set splitbelow
 
 set tabstop=4
 set softtabstop=4
