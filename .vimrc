@@ -110,7 +110,7 @@ set laststatus=2
 set pastetoggle=<F2>
 set so=999
 
-" undo controls 
+" undo controls
 set undofile
 set undodir=~/.vim/undodir
 
@@ -129,6 +129,10 @@ nnoremap <Leader>d :NERDTree<CR>
 nnoremap <Leader>si vip:sort<CR>
 "tab on = to allign =s
 nnoremap <Leader>t vip:Tabularize /=<CR>
+" show 80 column line guide
+ nnoremap <Leader>cc :let &cc = &cc == '' ? '80' : ''<CR>
+
+
 " autocommands
 
 "force markdown syntax highliting on .md files instead of modula2
