@@ -133,6 +133,8 @@ nnoremap <Leader>si vip:sort<CR>
 nnoremap <Leader>t vip:Tabularize /=<CR>
 " show 80 column line guide
  nnoremap <Leader>cc :let &cc = &cc == '' ? '80' : ''<CR>
+ " trigger vim-plug install
+ nnoremap <Leader>pi :PlugInstall<CR>
 
 
 " autocommands
