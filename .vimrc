@@ -126,15 +126,14 @@ map <C-l> <C-w>l
 
 "open nerdtree 'D'rawer
 nnoremap <Leader>d :NERDTree<CR>
-
-" sort imports
+"sort imports
 nnoremap <Leader>si vip:sort<CR>
 "tab on = to allign =s
 nnoremap <Leader>t vip:Tabularize /=<CR>
-" show 80 column line guide
- nnoremap <Leader>cc :let &cc = &cc == '' ? '80' : ''<CR>
- " trigger vim-plug install
- nnoremap <Leader>pi :PlugInstall<CR>
+"show 80 column line guide
+nnoremap <Leader>cc :let &cc = &cc == '' ? '80' : ''<CR>
+"trigger vim-plug install
+nnoremap <Leader>pi :PlugInstall<CR>
 
 
 " autocommands
