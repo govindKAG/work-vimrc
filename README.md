@@ -17,3 +17,5 @@ In a shell run
 ```
 wget -O - https://raw.githubusercontent.com/govindKAG/work-vimrc/master/install.sh | bash
 ```
+
+Initial launch might take some time depending on your bandwidth
