@@ -10,9 +10,9 @@
 - vim
 - wget
 - 256 color terminal
-- powerline patched font
+- powerline patched font (Inconsolata is used in the screenshot)
 
-in a shell run
+In a shell run
 
 ```
 wget -O - https://raw.githubusercontent.com/govindKAG/work-vimrc/master/install.sh | bash
