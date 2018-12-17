@@ -139,3 +139,5 @@ nnoremap <Leader>pi :PlugInstall<CR>
 
 "force markdown syntax highliting on .md files instead of modula2
 autocmd BufNewFile,BufRead *.md set filetype=markdown
+
+nnoremap <buffer> <F9> :exec '!python.exe' shellescape(@%, 1)<cr>
