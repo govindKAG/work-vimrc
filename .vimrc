@@ -19,7 +19,6 @@ Plug 'bling/vim-bufferline'
 Plug 'plasticboy/vim-markdown'
 Plug 'tell-k/vim-autopep8'
 Plug 'vim-scripts/AutoComplPop'
-Plug 'tpope/vim-fugitive'
 
 Plug 'ryanoasis/vim-devicons'
 " List ends here. Plugins become visible to Vim after this call.
@@ -135,7 +134,7 @@ nnoremap <Leader>cc :let &cc = &cc == '' ? '80' : ''<CR>
 nnoremap <Leader>pi :PlugInstall<CR>
 
 
-" autocommands
+" autocommands and other shortcuts
 
 "force markdown syntax highliting on .md files instead of modula2
 autocmd BufNewFile,BufRead *.md set filetype=markdown
@@ -145,3 +144,6 @@ nnoremap <buffer> <F9> :exec '!python.exe' shellescape(@%, 1)<cr>
 
 "run current python file with command line arguments
 nnoremap <buffer> <F10> :exec '!python.exe ' shellescape(@%, 1)
+
+"
+au FileType python setlocal formatprg=autopep8\ -
