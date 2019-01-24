@@ -19,6 +19,7 @@ Plug 'bling/vim-bufferline'
 Plug 'plasticboy/vim-markdown'
 Plug 'tell-k/vim-autopep8'
 Plug 'vim-scripts/AutoComplPop'
+Plug 'stephpy/vim-yaml'
 
 Plug 'ryanoasis/vim-devicons'
 " List ends here. Plugins become visible to Vim after this call.
