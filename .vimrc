@@ -146,5 +146,5 @@ nnoremap <buffer> <F9> :exec '!python.exe' shellescape(@%, 1)<cr>
 "run current python file with command line arguments
 nnoremap <buffer> <F10> :exec '!python.exe ' shellescape(@%, 1)
 
-"
+" use autopep8 for gq in python files
 au FileType python setlocal formatprg=autopep8\ -
