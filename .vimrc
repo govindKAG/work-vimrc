@@ -133,6 +133,8 @@ nnoremap <Leader>t vip:Tabularize /=<CR>
 nnoremap <Leader>cc :let &cc = &cc == '' ? '80' : ''<CR>
 "trigger vim-plug install
 nnoremap <Leader>pi :PlugInstall<CR>
+"reset cursor to the first char of the line
+nnoremap <Leader><Leader> ^
 
 
 " autocommands and other shortcuts
@@ -146,5 +148,5 @@ nnoremap <buffer> <F9> :exec '!python.exe' shellescape(@%, 1)<cr>
 "run current python file with command line arguments
 nnoremap <buffer> <F10> :exec '!python.exe ' shellescape(@%, 1)
 
-" use autopep8 for gq in python files
+"use autopep8 for gq in python files
 au FileType python setlocal formatprg=autopep8\ -
