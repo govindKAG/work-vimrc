@@ -20,6 +20,7 @@ Plug 'plasticboy/vim-markdown'
 Plug 'tell-k/vim-autopep8'
 Plug 'vim-scripts/AutoComplPop'
 Plug 'stephpy/vim-yaml'
+Plug 'tpope/vim-repeat'
 
 Plug 'ryanoasis/vim-devicons'
 " List ends here. Plugins become visible to Vim after this call.
