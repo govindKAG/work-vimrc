@@ -136,7 +136,8 @@ nnoremap <Leader>cc :let &cc = &cc == '' ? '80' : ''<CR>
 nnoremap <Leader>pi :PlugInstall<CR>
 "reset cursor to the first char of the line
 nnoremap <Leader><Leader> ^
-
+"grab a block of text
+nnoremap <Leader>g vip
 
 " autocommands and other shortcuts
 
