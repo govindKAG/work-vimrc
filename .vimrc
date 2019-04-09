@@ -21,6 +21,7 @@ Plug 'tell-k/vim-autopep8'
 Plug 'vim-scripts/AutoComplPop'
 Plug 'stephpy/vim-yaml'
 Plug 'tpope/vim-repeat'
+Plug 'mattn/emmet-vim'
 
 Plug 'ryanoasis/vim-devicons'
 " List ends here. Plugins become visible to Vim after this call.
