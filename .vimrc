@@ -22,6 +22,7 @@ Plug 'vim-scripts/AutoComplPop'
 Plug 'stephpy/vim-yaml'
 Plug 'tpope/vim-repeat'
 Plug 'mattn/emmet-vim'
+Plug 'ap/vim-css-color'
 
 Plug 'ryanoasis/vim-devicons'
 " List ends here. Plugins become visible to Vim after this call.
