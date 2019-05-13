@@ -79,9 +79,13 @@ let g:airline_skip_empty_sections = 1
 
 " key remappings
 
-"sensible up and down
+" sensible up and down
 nnoremap j gj
 nnoremap k gk
+
+" maintain selection after changing indent level in visual mode
+vnoremap < <gv
+vnoremap > >gv
 
 "cycle between the line numbering modes
 nnoremap <silent> <F3> :exec &nu==&rnu? "se nu!" : "se rnu!"<CR>
