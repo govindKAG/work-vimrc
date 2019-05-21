@@ -145,6 +145,8 @@ nnoremap <Leader>pi :PlugInstall<CR>
 nnoremap <Leader><Leader> ^
 "grab a block of text
 nnoremap <Leader>g vip
+"quick replace
+nnoremap <Leader>r :%s/
 
 " autocommands and other shortcuts
 
