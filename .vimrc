@@ -24,6 +24,7 @@ Plug 'tpope/vim-repeat'
 Plug 'mattn/emmet-vim'
 Plug 'ap/vim-css-color'
 Plug 'tommcdo/vim-lion'
+Plug 'jpalardy/vim-slime'
 
 Plug 'ryanoasis/vim-devicons'
 " List ends here. Plugins become visible to Vim after this call.
@@ -42,6 +43,9 @@ let g:ctrlp_working_path_mode='ra'
 
 " vim-markdown-preview
 let vim_markdown_preview_hotkey='<C-y>'
+
+" vim-slime config
+let g:slime_target = "tmux"
 
 " colorschemes,  themes and airline config
 
