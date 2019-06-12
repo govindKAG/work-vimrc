@@ -100,6 +100,7 @@ set nu
 set ruler
 set autoindent
 set nowrap
+set nostartofline
 syntax enable
 set splitright
 set splitbelow
