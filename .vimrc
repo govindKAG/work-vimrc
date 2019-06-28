@@ -100,7 +100,6 @@ set nu
 set ruler
 set autoindent
 set nowrap
-set nostartofline
 syntax enable
 set splitright
 set splitbelow
@@ -123,6 +122,7 @@ set title
 set laststatus=2
 set pastetoggle=<F2>
 set so=999
+set nosol
 
 " undo controls
 set undofile
