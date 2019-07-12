@@ -166,3 +166,8 @@ nnoremap <buffer> <F10> :exec '!python.exe ' shellescape(@%, 1)
 
 "use autopep8 for gq in python files
 au FileType python setlocal formatprg=autopep8\ -
+
+"remember cursor position when reopening
+if has("autocmd")
+  au BufReadPost * if line("'\"") > 0 && line("'\"") <= line("$") | exe "normal! g`\"" | endif
+endif
