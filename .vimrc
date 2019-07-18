@@ -168,6 +168,9 @@ autocmd BufNewFile,BufRead *.md set filetype=markdown
 
 "run current python file 
 nnoremap <buffer> <F9> :exec '!python.exe' shellescape(@%, 1)<cr>
+"
+"run current R file 
+nnoremap <buffer> <F11> :exec '!Rscript.exe' shellescape(@%, 1)<cr>
 
 "run current python file with command line arguments
 nnoremap <buffer> <F10> :exec '!python.exe ' shellescape(@%, 1)
