@@ -25,6 +25,8 @@ Plug 'mattn/emmet-vim'
 Plug 'ap/vim-css-color'
 Plug 'tommcdo/vim-lion'
 Plug 'jpalardy/vim-slime'
+Plug 'powerman/vim-plugin-viewdoc'
+Plug 'zirrostig/vim-schlepp'
 
 Plug 'ryanoasis/vim-devicons'
 " List ends here. Plugins become visible to Vim after this call.
@@ -46,6 +48,12 @@ let vim_markdown_preview_hotkey='<C-y>'
 
 " vim-slime config
 let g:slime_target = "tmux"
+
+" vim-schlepp config
+vmap <unique> <up>    <Plug>SchleppUp
+vmap <unique> <down>  <Plug>SchleppDown
+vmap <unique> <left>  <Plug>SchleppLeft
+vmap <unique> <right> <Plug>SchleppRight
 
 " colorschemes,  themes and airline config
 
