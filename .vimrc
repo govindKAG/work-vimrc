@@ -41,8 +41,9 @@ let mapleader=" "
 
 "ctrlP
 let g:ctrlp_map='<c-p>'
-let g:ctrlp_cmd='CtrlP'
+let g:ctrlp_cmd='CtrlPLastMode'
 let g:ctrlp_working_path_mode='ra'
+let g:ctrlp_extensions = ['buffertag', 'tag', 'line', 'dir']
 
 " vim-markdown-preview
 let vim_markdown_preview_hotkey='<C-y>'
