@@ -146,7 +146,7 @@ map <C-l> <C-w>l
 
 " leader shortcuts
 
-"open nerdtree 'D'rawer
+"toggle nerdtree 'D'rawer
 nnoremap <Leader>d :NERDTreeToggle<CR>
 "sort imports
 nnoremap <Leader>si vip:sort<CR>
