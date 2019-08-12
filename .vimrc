@@ -27,6 +27,7 @@ Plug 'tommcdo/vim-lion'
 Plug 'jpalardy/vim-slime'
 Plug 'powerman/vim-plugin-viewdoc'
 Plug 'zirrostig/vim-schlepp'
+Plug 'jmcantrell/vim-diffchanges'
 
 Plug 'ryanoasis/vim-devicons'
 " List ends here. Plugins become visible to Vim after this call.
@@ -160,6 +161,8 @@ nnoremap <Leader><Leader> ^
 nnoremap <Leader>g vip
 "quick replace
 nnoremap <Leader>r :%s/
+"trigger vim-plug install
+nnoremap <Leader>ff :DiffChangesPatchToggle<CR>
 
 " autocommands and other shortcuts
 
