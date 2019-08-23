@@ -164,6 +164,10 @@ nnoremap <Leader>g vip
 nnoremap <Leader>r :%s/
 "trigger vim-plug install
 nnoremap <Leader>ff :DiffChangesPatchToggle<CR>
+"stealth mode
+nnoremap <Leader>sm :colorscheme 256_noir<CR>
+"stealth off
+nnoremap <Leader>so :colorscheme gruvbox<CR>
 
 " autocommands and other shortcuts
 
