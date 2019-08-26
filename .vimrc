@@ -28,6 +28,7 @@ Plug 'jpalardy/vim-slime'
 Plug 'powerman/vim-plugin-viewdoc'
 Plug 'zirrostig/vim-schlepp'
 Plug 'jmcantrell/vim-diffchanges'
+Plug 'airblade/vim-gitgutter'
 
 Plug 'ryanoasis/vim-devicons'
 " List ends here. Plugins become visible to Vim after this call.
