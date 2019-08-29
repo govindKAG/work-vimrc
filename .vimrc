@@ -171,6 +171,8 @@ nnoremap <Leader>ff :DiffChangesPatchToggle<CR>
 nnoremap <Leader>sm :colorscheme 256_noir<CR>
 "stealth off
 nnoremap <Leader>so :colorscheme gruvbox<CR>
+"crosshair toggle
+nnoremap <Leader>ch :set cursorline! cursorcolumn!<CR>
 
 " autocommands and other shortcuts
 
