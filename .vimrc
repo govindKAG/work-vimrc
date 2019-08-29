@@ -29,6 +29,7 @@ Plug 'powerman/vim-plugin-viewdoc'
 Plug 'zirrostig/vim-schlepp'
 Plug 'jmcantrell/vim-diffchanges'
 Plug 'airblade/vim-gitgutter'
+Plug 'tpope/vim-fugitive'
 
 Plug 'ryanoasis/vim-devicons'
 " List ends here. Plugins become visible to Vim after this call.
@@ -91,6 +92,7 @@ let g:airline_mode_map = {
       \ }
 
 let g:airline_skip_empty_sections = 1
+let g:airline#extensions#branch#enabled = 1
 
 " key remappings
 
