@@ -30,6 +30,8 @@ Plug 'zirrostig/vim-schlepp'
 Plug 'jmcantrell/vim-diffchanges'
 Plug 'airblade/vim-gitgutter'
 Plug 'tpope/vim-fugitive'
+Plug 'chriskempson/base16-vim'
+Plug 'sainnhe/vim-color-forest-night'
 
 Plug 'ryanoasis/vim-devicons'
 " List ends here. Plugins become visible to Vim after this call.
@@ -64,6 +66,8 @@ vmap <unique> <right> <Plug>SchleppRight
 set background =dark
 set t_Co=256
 set encoding=utf-8
+set fillchars+=vert:│
+"let base16colorspace=256  " Access colors present in 256 colorspace
 colorscheme gruvbox
 let g:airline_theme='ravenpower'
 let g:airline_powerline_fonts=1
