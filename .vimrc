@@ -169,7 +169,7 @@ nnoremap <Leader><Leader> ^
 nnoremap <Leader>g vip
 "quick replace
 nnoremap <Leader>r :%s/
-"trigger vim-plug install
+"look at diffs since last write
 nnoremap <Leader>ff :DiffChangesPatchToggle<CR>
 "stealth mode
 nnoremap <Leader>sm :colorscheme 256_noir<CR>
