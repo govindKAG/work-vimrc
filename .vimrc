@@ -145,6 +145,17 @@ set nosol
 set undofile
 set undodir=~/.vim/undodir
 
+" file backup
+set backup
+set backupdir=$HOME/.vim/backup
+let s:backupdir = &backupdir
+function! SetBackupDir()
+    exec 'set backupdir=' . s:backupdir . expand('%:p:h')
+    if !isdirectory(&backupdir)
+        call mkdir(&backupdir, "p")
+    endif
+endfunction 
+
 " Window controls
 map <C-h> <C-w>h
 map <C-j> <C-w>j
