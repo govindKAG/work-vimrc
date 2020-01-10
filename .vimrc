@@ -104,6 +104,9 @@ let g:airline#extensions#branch#enabled = 1
 nnoremap j gj
 nnoremap k gk
 
+" arrow keys move the screen
+nnoremap <left> zh
+nnoremap <right> zl
 " maintain selection after changing indent level in visual mode
 vnoremap < <gv
 vnoremap > >gv
