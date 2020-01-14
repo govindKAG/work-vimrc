@@ -32,6 +32,7 @@ Plug 'airblade/vim-gitgutter'
 Plug 'tpope/vim-fugitive'
 Plug 'chriskempson/base16-vim'
 Plug 'sainnhe/vim-color-forest-night'
+Plug 'mileszs/ack.vim'
 
 Plug 'ryanoasis/vim-devicons'
 " List ends here. Plugins become visible to Vim after this call.
