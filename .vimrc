@@ -33,6 +33,7 @@ Plug 'tpope/vim-fugitive'
 Plug 'chriskempson/base16-vim'
 Plug 'sainnhe/vim-color-forest-night'
 Plug 'mileszs/ack.vim'
+Plug 'easymotion/vim-easymotion'
 
 Plug 'ryanoasis/vim-devicons'
 " List ends here. Plugins become visible to Vim after this call.
@@ -179,7 +180,7 @@ nnoremap <Leader>cc :let &cc = &cc == '' ? '80' : ''<CR>
 "trigger vim-plug install
 nnoremap <Leader>pi :PlugInstall<CR>
 "reset cursor to the first char of the line
-nnoremap <Leader><Leader> ^
+"nnoremap <Leader><Leader> ^
 "grab a block of text
 nnoremap <Leader>g vip
 "quick replace
@@ -192,6 +193,21 @@ nnoremap <Leader>sm :colorscheme 256_noir<CR>
 nnoremap <Leader>so :colorscheme gruvbox<CR>
 "crosshair toggle
 nnoremap <Leader>ch :set cursorline! cursorcolumn!<CR>
+"Ack search
+nnoremap <Leader>fn :Ack! 
+
+
+"EasyMotion config
+let g:EasyMotion_do_mapping = 0
+nmap <Leader><Leader> <Plug>(easymotion-overwin-f)
+let g:EasyMotion_smartcase = 1
+map <Leader>j <Plug>(easymotion-j)
+map <Leader>k <Plug>(easymotion-k)
+" replacing stock /
+map  / <Plug>(easymotion-sn)
+omap / <Plug>(easymotion-tn)
+map  n <Plug>(easymotion-next)
+map  N <Plug>(easymotion-prev)
 
 " autocommands and other shortcuts
 
