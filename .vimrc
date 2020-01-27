@@ -35,6 +35,7 @@ Plug 'sainnhe/vim-color-forest-night'
 Plug 'mileszs/ack.vim'
 Plug 'easymotion/vim-easymotion'
 Plug 'tomtom/tcomment_vim'
+Plug 'rhysd/clever-f.vim'
 
 
 Plug 'ryanoasis/vim-devicons'
