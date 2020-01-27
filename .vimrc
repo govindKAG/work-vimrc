@@ -34,6 +34,8 @@ Plug 'chriskempson/base16-vim'
 Plug 'sainnhe/vim-color-forest-night'
 Plug 'mileszs/ack.vim'
 Plug 'easymotion/vim-easymotion'
+Plug 'tomtom/tcomment_vim'
+
 
 Plug 'ryanoasis/vim-devicons'
 " List ends here. Plugins become visible to Vim after this call.
