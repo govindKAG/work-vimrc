@@ -36,6 +36,7 @@ Plug 'mileszs/ack.vim'
 Plug 'easymotion/vim-easymotion'
 Plug 'tomtom/tcomment_vim'
 Plug 'rhysd/clever-f.vim'
+Plug 'foosoft/vim-argwrap'
 
 
 Plug 'ryanoasis/vim-devicons'
@@ -198,6 +199,8 @@ nnoremap <Leader>so :colorscheme gruvbox<CR>
 nnoremap <Leader>ch :set cursorline! cursorcolumn!<CR>
 "Ack search
 nnoremap <Leader>fn :Ack! 
+"argwrap 
+nnoremap <silent> <leader>a :ArgWrap<CR>
 
 
 "EasyMotion config
