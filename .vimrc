@@ -37,6 +37,7 @@ Plug 'easymotion/vim-easymotion'
 Plug 'tomtom/tcomment_vim'
 Plug 'rhysd/clever-f.vim'
 Plug 'foosoft/vim-argwrap'
+Plug 'joereynolds/place.vim'
 
 
 Plug 'ryanoasis/vim-devicons'
@@ -120,6 +121,7 @@ vnoremap > >gv
 "cycle between the line numbering modes
 nnoremap <silent> <F3> :exec &nu==&rnu? "se nu!" : "se rnu!"<CR>
 
+nmap ga <Plug>(place-insert-multiple)
 " regular settings
 set nocompatible
 set nu
