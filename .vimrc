@@ -209,6 +209,8 @@ nnoremap <silent> <leader>a :ArgWrap<CR>
 let g:EasyMotion_do_mapping = 0
 nmap <Leader><Leader> <Plug>(easymotion-overwin-f)
 nmap <Leader>e <Plug>(easymotion-overwin-f2)
+nmap <Leader><Leader> <Plug>(easymotion-overwin-f2)
+nmap <Leader>e <Plug>(easymotion-overwin-f)
 let g:EasyMotion_smartcase = 1
 map <Leader>j <Plug>(easymotion-j)
 map <Leader>k <Plug>(easymotion-k)
