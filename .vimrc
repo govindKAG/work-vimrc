@@ -121,7 +121,9 @@ vnoremap > >gv
 "cycle between the line numbering modes
 nnoremap <silent> <F3> :exec &nu==&rnu? "se nu!" : "se rnu!"<CR>
 
+"
 nmap ga <Plug>(place-insert-multiple)
+
 " regular settings
 set nocompatible
 set nu
@@ -201,8 +203,11 @@ nnoremap <Leader>so :colorscheme gruvbox<CR>
 nnoremap <Leader>ch :set cursorline! cursorcolumn!<CR>
 "Ack search
 nnoremap <Leader>fn :Ack! 
+"recursive fold toggle
+nnoremap <Leader>o zA
 "argwrap 
 nnoremap <silent> <leader>a :ArgWrap<CR>
+
 
 
 "EasyMotion config
