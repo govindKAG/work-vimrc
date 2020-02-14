@@ -38,6 +38,7 @@ Plug 'tomtom/tcomment_vim'
 Plug 'rhysd/clever-f.vim'
 Plug 'foosoft/vim-argwrap'
 Plug 'joereynolds/place.vim'
+Plug 'vasconcelloslf/vim-interestingwords'
 
 
 Plug 'ryanoasis/vim-devicons'
